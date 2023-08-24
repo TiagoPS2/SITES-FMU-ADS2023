@@ -1,0 +1,159 @@
+* {
+  margin: 0 auto;
+
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+.center {
+  display: flex;
+  max-width: 1100px;
+  padding: 0 2%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+section.main {
+  background-image: url('bg.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  padding: 20px;
+}
+
+.menu {
+  display: flex;
+  width: 100%;
+}
+.logo-menu {
+  width: 50%;
+}
+.items-menu {
+  padding: 25px;
+  width: 50%;
+  text-align: right;
+}
+.items-menu a {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 10px;
+}
+.items-menu a:hover {
+  border-bottom: 2px solid #ffdd33;
+}
+.mockup {
+  display: block;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+}
+div.bg-mockup {
+  padding: 50px;
+  background-color: white;
+  background-size: auto;
+  border-radius: 10px;
+  box-shadow: 0 5px 5px gray;
+  margin: 0 auto;
+}
+
+.mockup h1 {
+  font-size: 50px;
+}
+
+section.contato {
+  display: flex;
+  background-color: #0f3fd3;
+  background-size: auto;
+  height: 250px;
+  color: white;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+section.contato2 {
+  display: flex;
+  justify-content: stretch;
+  margin: 0 auto;
+}
+section.contato2 .logo-menu {
+  padding: 130px;
+}
+section.contato2 .sugestao {
+  padding: 100px;
+}
+.formulario {
+  padding: 70px;
+}
+.title-contato {
+  padding: 100px;
+}
+
+footer {
+  text-align: center;
+}
+.bg-mockup img {
+  justify-items: center;
+  justify-content: space-evenly;
+  padding: 10px;
+  border-radius: 20px;
+  width: calc(100% / 4);
+}
+section.sobrenos {
+  background-size: auto;
+  height: 300px;
+  text-align: center;
+  padding: 100px;
+  margin: 0 auto;
+}
+
+div.center h1 {
+  text-align: center;
+}
+b {
+  color: #ffdd33;
+}
+
+.btn2 {
+  border: none;
+  float: right;
+  justify-content: center;
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #0f3fd3;
+}
+
+.btn {
+  display: inline-block;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #ffdd33;
+}
+.btn:hover,
+.btn2:hover {
+  transition: 1s;
+  opacity: 80%;
+}
+.campo-email,
+.campo-nome {
+  align-items: center;
+  justify-content: space-around;
+  justify-items: end;
+  position: relative;
+  padding: 3px;
+  border-radius: 5px;
+  border: 1px solid black;
+  right: -10px;
+}
+.area-escrita {
+  border: 1px solid black;
+  border-radius: 5px;
+}
